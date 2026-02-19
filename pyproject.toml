@@ -1,15 +1,15 @@
 [project]
-name = "comfyui-faster-whisper"
-description = "Nodes to use [a/faster-whisper](https://github.com/SYSTRAN/faster-whisper) for transcription."
+name = "comfyui-fast-whisper"
+description = "ComfyUI node for fast-whisper transcription"
 version = "1.0.0"
 license = {file = "LICENSE"}
-dependencies = ["faster-whisper==1.0.3", "soundfile"]
+dependencies = ["faster-whisper==1.0.3", "soundfile","numpy"]
 
 [project.urls]
-Repository = "https://github.com/jhj0517/ComfyUI-faster-whisper"
+Repository = "https://github.com/ai-joe-git/ComfyUI-faster-whisper"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "jhj0517"
-DisplayName = "ComfyUI-faster-whisper"
+PublisherId = "ai-joe-git"
+DisplayName = "ComfyUI-fast-whisper"
 Icon = ""
